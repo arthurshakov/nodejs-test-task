@@ -1,0 +1,30 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "node js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "serve": "nodemon index"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Artur <email@email.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "chalk": "4.1.2",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.2",
+    "validator": "^13.15.15",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

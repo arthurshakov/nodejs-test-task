@@ -1,0 +1,35 @@
+.quiz-slide {
+	padding: 2rem;
+	min-height: 300px;
+}
+
+.answer-choice {
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.quiz-slide.is-answered .answer-choice {
+	pointer-events: none;
+}
+
+.answer-choice:hover {
+	background-color: #f8f9fa;
+}
+
+.swiper-pagination-bullet-active {
+	background: #0d6efd;
+}
+
+.accordion-button {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.accordion-body {
+  padding: 1.5rem;
+}
