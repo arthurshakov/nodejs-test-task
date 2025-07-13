@@ -1,12 +1,3 @@
-// function initAccordions() {
-// 	document.querySelectorAll('.accordion-button').forEach(btn => {
-// 		btn.addEventListener('click', function() {
-// 			const target = this.dataset.bsTarget;
-// 			new bootstrap.Collapse(document.querySelector(target));
-// 		});
-// 	});
-// }
-
 const API_URL = 'http://localhost:3000/edit-quiz/';
 
 function constructQuestionObject(question) {

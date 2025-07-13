@@ -1,11 +1,8 @@
-// const http = require('http');
-// const fs = require('fs/promises');
 const chalk = require('chalk');
 const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
-// const Note = require('./models/Note.js');
 const {getQuiz, addQuizQuestion, updateQuizQuestion, deleteQuizQuestion} = require('./quiz.controller');
 
 const port = 3000;
